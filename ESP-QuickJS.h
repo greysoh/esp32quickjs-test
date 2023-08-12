@@ -14,7 +14,7 @@
 #include <StreamString.h>
 #endif
 
-#include "../quickjs.h"
+#include "quickjs.h"
 
 static void qjs_dump_exception(JSContext *ctx, JSValue v) {
   if (!JS_IsUndefined(v)) {
